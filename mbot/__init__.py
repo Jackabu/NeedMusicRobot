@@ -81,7 +81,7 @@ class Mbot(Client):
         for chat in AUTH_CHATS:
             await self.send_photo(
                 chat,
-                "https://i.ibb.co/mtGCrzm/youNeedMusic.jpg",
+                "https://i.ibb.co/YBv5vGd/photo-2022-08-02-09-34-30.jpg",
                 "**Bot Started.**",
             )
         LOGGER.info(f"Bot Started As {BOT_INFO.username}\n")
